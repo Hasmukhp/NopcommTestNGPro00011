@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+         <test name="Login Test">
+		   <classes>
+                <class name="Test_Scenarios.LoginCase" >
+                <methods>
+                    <include name="test1"/>
+                </methods>
+                </class>
+           </classes>
+	     </test> <!-- Test -->
+
+          <test name="wrong password ">
+		   <classes>
+                <class name="Test_Scenarios.LoginCase" >
+                    <methods>
+                     <include name="test2"/>
+                    </methods>
+                </class>
+           </classes>
+	     </test> <!-- Test -->
+
+          <test name="wrong userEmailid ">
+		   <classes>
+                <class name="Test_Scenarios.LoginCase" >
+                    <methods>
+                     <include name="test3"/>
+                    </methods>
+                </class>
+           </classes>
+	     </test> <!-- Test -->
+
+
+
+
+</suite>
